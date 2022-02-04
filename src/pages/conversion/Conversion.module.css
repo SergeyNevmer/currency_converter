@@ -1,0 +1,74 @@
+.container {
+  min-height: 91.5vh;
+  background-color: #201f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondContainer {
+  width: 45%;
+  min-height: 400px;
+  margin: 50px 0 50px 0;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.containerForInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerForInfo h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.containerForInfo p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.interactivity {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interactivity input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: 2px solid #0765e3;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.interactivity input[type="text"] {
+  font-size: 20px;
+}
+
+.interactivity button {
+  width: 150px;
+  height: 35px;
+  background-color: #0765e3;
+  color: #ffffff;
+  border-radius: 90px 90px 90px 90px;
+  cursor: pointer;
+}
+
+.containerForInteractivityAndResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}

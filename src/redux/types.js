@@ -1,0 +1,3 @@
+export const Types = {
+  GET_CURRENT_EXCHANGE_RATE: "GET_CURRENT_EXCHANGE_RATE",
+};
